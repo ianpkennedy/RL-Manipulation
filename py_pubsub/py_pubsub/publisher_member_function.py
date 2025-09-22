@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+
+#adapted from : Vision-Based Robotic Object Grasping—A Deep Reinforcement Learning Approach
 import rclpy
 from rclpy.node import Node
 
