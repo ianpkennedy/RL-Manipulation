@@ -19,6 +19,10 @@ class YOLODetector:
 
     @staticmethod
     def ros_img_to_cv2(ros_img_msg):
+        print('entering bridge converter')
+
+        print(ros_img_msg)
+
         bridge = CvBridge()
         # Convert ROS Image message to OpenCV image (BGR)
         return bridge.imgmsg_to_cv2(ros_img_msg, desired_encoding='bgr8')
